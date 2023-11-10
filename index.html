@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bebot's IHAW-IHAW</title>
+    <!-- this code is inspired from @GeekMalak-->
+</head>
+<body>
+    <div class="container">
+        <div class="shape"></div>
+        <div class="navbar">
+            <a href="#" class="logo"><img src="logo1.png" alt="logo" class="logo"></a>
+            <nav>
+                <ul role="list" class="navbar-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="content-text">
+                <h2 class="product-header">It's not just a bbq<br>
+                    it's <span>IHAW TIME!</span>
+                </h2>
+                <p class="product-des">What sets us apart? It's all in the sauce! Crafted with a secret blend of flavors perfected over time, our signature sauce is the heart and soul of every dish, making each bite a celebration of our rich culinary heritage. Established over 20 years ago, our passion for the perfect barbecue experience has fueled our success. Nestled in the heart of tradition, we bring you the finest in Ihaw-Ihaw, sizzling barbecues, and succulent isaw. 
+            <button class="learn-more">Learn More</button>
+            </div>
+
+            <div class="content-picture">
+                <img src="isaw.png" alt="isaw" class="isaw">
+                <div class="socials">
+                    <ul class="social-media">
+                        <li><img src="facebook.png" alt=""></li>
+                        <li><img src="twitter.png" alt=""></li>
+                        <li><img src="instagram.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumb">
+            <ul class="product-gallery">
+                <li><img src="isaw.png" onclick="imgSlide('isaw.png');changeColors('#004b93')"></li>
+                <li><img src="hotdg.png" onclick="imgSlide('hotdg.png');changeColors('#ff0000')"></li>
+                <li><img src="betamax.png" onclick="imgSlide('betamax.png');changeColors('#009900')"></li>
+            </ul>
+        </div>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
